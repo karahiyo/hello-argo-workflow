@@ -1,7 +1,7 @@
 
 
 __install-argo--workflow:
-	kubectl create ns argo
+	kubectl create namespace argo
 	kubectl apply -n argo -f https://raw.githubusercontent.com/argoproj/argo/stable/manifests/quick-start-postgres.yaml
 
 __install_argo_cmd:
